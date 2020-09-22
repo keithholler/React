@@ -6,7 +6,6 @@ class Header extends Component {
 
     constructor(props) {
         super(props);
-
         this.toggleNav = this.toggleNav.bind(this);
         this.state = {
           isNavOpen: false
@@ -23,7 +22,7 @@ class Header extends Component {
         return (
             <React.Fragment>
                 <Jumbotron fluid>
-                    <div className="container">
+                    <div className="container" >
                         <div className="row">
                             <div className="col">
                                 <h1>NuCamp</h1>
